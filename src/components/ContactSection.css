@@ -1,10 +1,11 @@
 /* --- CONTACT SECTION --- */
 .contact-section {
   padding: var(--spacing-xl) var(--spacing-md);
-  width: 100vw;
+  width: 97vw;
   box-sizing: border-box;
-  max-width: 100vw;
   margin-top: var(--spacing-xl);
+  marin-left:auto;
+  margin-right:auto;
 }
 
 .contact-header {
