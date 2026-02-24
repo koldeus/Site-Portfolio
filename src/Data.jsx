@@ -131,6 +131,7 @@ export const content = {
         cats: ["Intelligence Artificielle", "Développement"],
         desc: "Création d'une intelligence artificielle pour le jeu de Nim, permettant de jouer contre l'ordinateur avec une stratégie optimale.",
         tech: ["Python"],
+        media: [],
       },
       {
         id: 5,
@@ -142,7 +143,11 @@ export const content = {
         media: [
           {
             type: "img",
-            url: "/Blackened-Corvus.png",
+            url: "/papillon-fleur.jpg",
+          },
+          {
+            type: "img",
+            url: "/Papillon-Pleur.PNG",
           },
         ],
       },
