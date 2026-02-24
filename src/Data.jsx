@@ -127,19 +127,21 @@ export const content = {
       {
         id: 4,
         title: "IA pour le jeu de Nim",
-        year: "2024",
+        year: "2023",
         cats: ["Intelligence Artificielle", "Développement"],
         desc: "Création d'une intelligence artificielle pour le jeu de Nim, permettant de jouer contre l'ordinateur avec une stratégie optimale.",
         tech: ["Python"],
+        github: "https://github.com/koldeus/IA-Jeu-de-Nim",
         media: [],
       },
       {
         id: 5,
         title: "Algorithme de détection de contours d'une image",
-        year: "2024",
+        year: "2022",
         cats: ["Développement"],
         desc: "Création d'un algorithme de détection de contours pour une image, permettant d'identifier les bords et formes présents dans une image.",
         tech: ["Python"],
+        github: "https://github.com/koldeus/Contour-Image",
         media: [
           {
             type: "img",
