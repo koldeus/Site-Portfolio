@@ -147,7 +147,7 @@ export const content = {
           },
           {
             type: "img",
-            url: "/Papillon-Pleur.PNG",
+            url: "/Papillon-Fleur.PNG",
           },
         ],
       },
@@ -274,41 +274,28 @@ export const content = {
       },
       {
         id: 4,
-        title: "",
+        title: "Building an AI for the Nim Game",
         year: "2024",
-        cats: ["AI", "Python"],
-        desc: 'Directing and editing the "WMII" music video and photoshoot for the metal band Blackened Corvus while managing communication and task organization as my university group\'s Audiovisual Leader.',
-        tech: ["Premiere Pro", "Photoshop", "After Effects", "Agile method"],
-        media: [
-          {
-            type: "Video",
-            url: "https://youtu.be/Yyk3yKG4B1g",
-          },
-          {
-            type: "img",
-            url: "/Blackened-Corvus.png",
-          },
-        ],
+        cats: ["Artificial Intelligence", "Development"],
+        desc: "Building an artificial intelligence for the Nim game, allowing to play against the computer with an optimal strategy.",
+        tech: ["Python"],
+        media: [],
       },
       {
         id: 5,
-        title: "Blackened-Corvus Clip",
+        title: "Designing an Image Edge Detection Algorithm",
         year: "2024",
-        cats: ["Python"],
-        desc: 'Directing and editing the "WMII" music video and photoshoot for the metal band Blackened Corvus while managing communication and task organization as my university group\'s Audiovisual Leader.',
-        tech: ["Premiere Pro", "Photoshop", "After Effects", "Agile method"],
+        cats: ["Development"],
+        desc: "Designing an edge detection algorithm for an image, allowing to identify the edges and shapes present in an image.",
+        tech: ["Python"],
         media: [
           {
             type: "img",
-            url: "/Blackened-Corvus.png",
+            url: "/papillon-fleur.jpg",
           },
           {
             type: "img",
-            url: "/Blackened-Corvus.png",
-          },
-          {
-            type: "img",
-            url: "/Blackened-Corvus.png",
+            url: "/Papillon-Fleur.PNG",
           },
         ],
       },
