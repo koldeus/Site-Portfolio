@@ -20,6 +20,10 @@ export default function ProjectList({ t }) {
       ? t.projects
       : t.projects.filter((p) => p.cats.includes(selectedCategory));
 
+  filteredProjects.sort((a, b) => {
+    if (b.year !== a.year) return b.year - a.year;
+    return a.id - b.id;
+  }); // Trier par année décroissante, puis par ID si les années sont identiques
   // Afficher seulement les premiers projets si showAll est false
   const displayedProjects = filteredProjects;
 
