@@ -9,7 +9,6 @@
   background: #6d4897;
   box-sizing: border-box;
   z-index: 99;
-  /* FIX : évite que la grid soit coupée */
   overflow: visible;
 }
 
@@ -38,7 +37,6 @@
   font-size: 0.9rem;
   font-weight: 600;
   z-index: 0;
-  /* FIX : la blackbar ne coupe pas la grid */
   overflow: visible;
 }
 
