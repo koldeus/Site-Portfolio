@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import "./hero-banner.css";
+import "./Hero-banner.css";
 
 export default function ScrollIndicator() {
   return (
