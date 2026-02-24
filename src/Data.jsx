@@ -29,7 +29,7 @@ export const content = {
           number: 15,
           label: "Technologies Maîtrisées",
         },
-        { icon: <Users size={32} />, number: 20, label: "Clients Satisfaits" },
+        { icon: <Users size={32} />, number: 2, label: "Clients Satisfaits" },
       ],
       skills: [
         "React",
@@ -179,7 +179,7 @@ export const content = {
           number: 15,
           label: "Technologies Mastered",
         },
-        { icon: <Users size={32} />, number: 20, label: "Satisfied Clients" },
+        { icon: <Users size={32} />, number: 2, label: "Satisfied Clients" },
       ],
       skills: [
         "React",
