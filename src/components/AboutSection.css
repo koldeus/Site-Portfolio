@@ -4,11 +4,7 @@
 
 .about-section {
   padding: clamp(60px, 10vw, 120px) clamp(20px, 5vw, 40px);
-  background: linear-gradient(
-    180deg,
-    rgba(224, 76, 76, 0.01) 0%,
-    rgba(109, 40, 217, 0.05) 100%
-  );
+
   max-width: 100vw;
   overflow: hidden;
 }
