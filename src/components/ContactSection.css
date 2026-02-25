@@ -4,8 +4,6 @@
   width: 97vw;
   box-sizing: border-box;
   margin-top: var(--spacing-xl);
-  margin-left:auto;
-  margin-right:auto;
 }
 
 .contact-header {
@@ -243,6 +241,8 @@
   .contact-section {
     padding: var(--spacing-lg) var(--spacing-xs);
     width: 100vw;
+      margin-left:auto;
+  margin-right:auto;
   }
 
   .contact-grid {
