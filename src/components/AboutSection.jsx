@@ -80,8 +80,8 @@ export default function AboutSection({ t, lang }) {
         
 		 
 		  
-		  <a className="Bouton-Cv" href={lang==="fr"?"/Cv_Keni_Mottin_fr.pdf":"/Cv_Keni_Mottin_en.pdf"} download>
-			  <button className="Bouton-Cv" href={lang==="fr"?"/Cv_Keni_Mottin_fr.pdf":"/Cv_Keni_Mottin_en.pdf"}>
+		  <a href={lang==="fr"?"/Cv_Keni_Mottin_fr.pdf":"/Cv_Keni_Mottin_en.pdf"} download>
+			  <button className="Bouton-Cv">
   				{lang === "fr" ? "Télécharger mon CV" : "Download my CV"}
 			  </button>
 		  </a>
