@@ -75,6 +75,12 @@
   justify-content: center;
   margin-bottom: clamp(40px, 6vw, 75px);
 }
+.btn-div-cv > a{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: clamp(40px, 6vw, 75px);
+}
 .Bouton-Cv {
   width: 80%;
   padding: 20px;
