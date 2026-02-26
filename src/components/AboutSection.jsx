@@ -14,7 +14,7 @@ function CountUp({ from, to, duration }) {
           setIsVisible(true);
         }
       },
-      { threshold: 0.3 },>
+      { threshold: 0.3 }
     );
 
     if (ref.current) {
@@ -78,7 +78,10 @@ export default function AboutSection({ t, lang }) {
       </div>
       <div className="btn-div-cv">
         
-
+		{/* <button className="Bouton-Cv" href={lang==="fr"?"/Cv_Keni_Mottin_fr.pdf":"/Cv_Keni_Mottin_en.pdf"}>
+  				{lang === "fr" ? "Télécharger mon CV" : "Download my CV"}
+		</button> */}
+		  
 		  <a className="Bouton-Cv" href={lang==="fr"?"/Cv_Keni_Mottin_fr.pdf":"/Cv_Keni_Mottin_en.pdf"} download>
 			  {lang === "fr" ? "Télécharger mon CV" : "Download my CV"}
 		  </a>
