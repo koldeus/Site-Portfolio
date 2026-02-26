@@ -77,9 +77,14 @@ export default function AboutSection({ t, lang }) {
         </div>
       </div>
       <div className="btn-div-cv">
-        <button className="Bouton-Cv">
-          {lang === "fr" ? "Télécharger mon CV" : "Download my CV"}
-        </button>
+        <button className="Bouton-Cv" onClick={() => {
+  					const link = document.createElement('a');
+  					link.href = '/cv.pdf';
+  					link.download = 'CV_Keni_Mottin'+{lang === "fr" ? "_fr" : "_en"}+'.pdf';
+  					link.click();
+						}}>
+  				{lang === "fr" ? "Télécharger mon CV" : "Download my CV"}
+				</button>
       </div>
       {/* Skills Section */}
       <div>
