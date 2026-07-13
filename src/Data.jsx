@@ -29,7 +29,7 @@ export const content = {
           number: 15,
           label: "Technologies Maîtrisées",
         },
-        { icon: <Users size={32} />, number: 20, label: "Clients Satisfaits" },
+        { icon: <Users size={32} />, number: 2, label: "Clients Satisfaits" },
       ],
       skills: [
         "React",
@@ -123,19 +123,14 @@ export const content = {
       },
       {
         id: 4,
-        title: "DanData",
-        year: "2025",
-        cats: ["Développement Web"],
-        desc: "Conception d'un CMS innovant et intuitif pour l'analyse de données, avec un fort accent mis sur l'accessibilité.",
-        tech: ["React", "Symphoni", "JS", "CSS", "GitHub"],
-        github: "https://github.com/koldeus/DANDATA",
-        media: [
-          {
-            type: "img",
-            url: "/DanData.png",
-          },
-        ],
+        title: "IA pour le jeu de Nim",
+        year: "2024",
+        cats: ["Intelligence Artificielle", "Développement"],
+        desc: "Création d'une intelligence artificielle pour le jeu de Nim, permettant de jouer contre l'ordinateur avec une stratégie optimale.",
+        tech: ["Python"],
+        media: [],
       },
+      
 
       {
         id: 5,
@@ -148,7 +143,21 @@ export const content = {
         media: [
           {
             type: "img",
-            url: "/ChartGraphiqueVinci.png",
+            url: "/Papillon-Pleur.PNG",
+          },
+        ],
+      },
+      {
+        id: 6,
+        title: "Algorithme de détection de contours d'une image",
+        year: "2025",
+        cats: ["Développement"],
+        desc: "Création d'un algorithme de détection de contours pour une image, permettant d'identifier les bords et formes présents dans une image.",
+        tech: ["Python"],
+        media: [
+          {
+            type: "img",
+            url: "/DanData.png",
           },
         ],
       },
@@ -178,7 +187,7 @@ export const content = {
           number: 15,
           label: "Technologies Mastered",
         },
-        { icon: <Users size={32} />, number: 20, label: "Satisfied Clients" },
+        { icon: <Users size={32} />, number: 2, label: "Satisfied Clients" },
       ],
       skills: [
         "React",
@@ -273,31 +282,41 @@ export const content = {
 
       {
         id: 4,
-        title: "Léonard de Vinci HighSchool Internship",
-        year: "2025",
-        cats: ["Web Development", "Graphisme"],
-        desc: "Revamping of the Léonard de Vinci high school website, along with the creation of a brand new visual identity for the institution.",
-        tech: ["Laravel", "PhpMyAdmin", "SSH", "HTML", "JS", "CSS"],
-        website: "https://www.lyc-vinci-amboise.fr",
+        title: "",
+        year: "2024",
+        cats: ["AI", "Python"],
+        desc: 'Directing and editing the "WMII" music video and photoshoot for the metal band Blackened Corvus while managing communication and task organization as my university group\'s Audiovisual Leader.',
+        tech: ["Premiere Pro", "Photoshop", "After Effects", "Agile method"],
         media: [
           {
+            type: "Video",
+            url: "https://youtu.be/Yyk3yKG4B1g",
+          },
+          {
             type: "img",
-            url: "/ChartGraphiqueVinci.png",
+            url: "/Blackened-Corvus.png",
           },
         ],
       },
       {
         id: 5,
-        title: "DanData",
-        year: "2025",
-        cats: ["Web Development"],
-        desc: "Designing innovative and intuitive CMS for data analysis with a strong focus on accessibility.",
-        tech: ["React", "Symphoni", "JS", "CSS", "GitHub"],
-        github: "https://github.com/koldeus/DANDATA",
+        title: "Blackened-Corvus Clip",
+        year: "2024",
+        cats: ["Python"],
+        desc: 'Directing and editing the "WMII" music video and photoshoot for the metal band Blackened Corvus while managing communication and task organization as my university group\'s Audiovisual Leader.',
+        tech: ["Premiere Pro", "Photoshop", "After Effects", "Agile method"],
         media: [
           {
             type: "img",
-            url: "/DanData.png",
+            url: "/Blackened-Corvus.png",
+          },
+          {
+            type: "img",
+            url: "/Blackened-Corvus.png",
+          },
+          {
+            type: "img",
+            url: "/Blackened-Corvus.png",
           },
         ],
       },
