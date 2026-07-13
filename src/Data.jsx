@@ -121,8 +121,24 @@ export const content = {
           },
         ],
       },
+
       {
         id: 4,
+        title: "Stage Lycée Léonard de Vinci",
+        year: "2025",
+        cats: ["Développement Web", "Graphisme"],
+        desc: "Refonte Total du site web du lycée leonard de vinci en plus de la création d'une toute nouvelle identité visuelle de létablissement.",
+        tech: ["Laravel", "PhpMyAdmin", "SSH", "HTML", "JS", "CSS"],
+        website: "https://www.lyc-vinci-amboise.fr",
+        media: [
+          {
+            type: "img",
+            url: "/ChartGraphiqueVinci.png",
+          },
+        ],
+      },
+      {
+        id: 5,
         title: "DanData",
         year: "2025",
         cats: ["Développement Web"],
@@ -136,19 +152,17 @@ export const content = {
           },
         ],
       },
-
       {
-        id: 5,
-        title: "Stage Lycée Léonard de Vinci",
-        year: "2025",
-        cats: ["Développement Web", "Graphisme"],
-        desc: "Refonte Total du site web du lycée leonard de vinci en plus de la création d'une toute nouvelle identité visuelle de létablissement.",
-        tech: ["Laravel", "PhpMyAdmin", "SSH", "HTML", "JS", "CSS"],
-        website: "https://www.lyc-vinci-amboise.fr",
+        id: 6,
+        title: "Stage Plateforme de Coordination 37 (PCO 37)",
+        year: "2026",
+        cats: ["Développement Web"],
+        desc: "Portage, optimisation et généralisation nationale de l'Application de Coordination pour les Enfants Suivis et Orientés par la PCO (ACESO), ce dispositif a pour mission d’organiser le parcours de soins (bilans et interventions précoces) des enfants présentant des signes de troubles du neuro-développement. Un des objectifs principaux de ce projet était de la rendre utilisable par tous les départements de France et de permettre aux professionnels de santé d'avoir un outil commun pour le suivi des enfants.",
+        tech: ["Python", "Shyni for python", "JS", "CSS", "GitHub"],
         media: [
           {
             type: "img",
-            url: "/ChartGraphiqueVinci.png",
+            url: "/PCO37.png",
           },
         ],
       },
@@ -298,6 +312,20 @@ export const content = {
           {
             type: "img",
             url: "/DanData.png",
+          },
+        ],
+      },
+      {
+        id: 6,
+        title: "PCO 37 Coordination Platform Internship",
+        year: "2026",
+        cats: ["Web Development"],
+        desc: "Porting, optimizing and rolling out the PCO Coordination Application (ACESO) nationwide for children monitored and oriented by the PCO. This platform was built to organize care pathways (assessments and early interventions) for children showing signs of neurodevelopmental disorders, and to give healthcare professionals a shared tool for tracking their progress across all French departments.",
+        tech: ["Python", "Shyni for python", "JS", "CSS", "GitHub"],
+        media: [
+          {
+            type: "img",
+            url: "/PCO37.png",
           },
         ],
       },
