@@ -9,6 +9,11 @@ export default function ProjectItem({ project, isOpen, toggleOpen }) {
   function getYouTubeEmbedUrl(url) {
     if (!url) return null;
 
+    // Gère les formats :
+    // https://www.youtube.com/watch?v=VIDEO_ID
+    // https://youtu.be/VIDEO_ID
+    // https://www.youtube.com/embed/VIDEO_ID (déjà embed)
+
     const regExp =
       /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([a-zA-Z0-9_-]{11})/;
     const match = url.match(regExp);
@@ -16,7 +21,7 @@ export default function ProjectItem({ project, isOpen, toggleOpen }) {
     if (match) {
       return `https://www.youtube.com/embed/${match[1]}`;
     }
-    return url;
+    return url; // retourne l'url originale si pas YouTube
   }
 
   // Detect mobile
@@ -38,6 +43,7 @@ export default function ProjectItem({ project, isOpen, toggleOpen }) {
     setLightboxOpen(true);
     document.body.style.overflow = "hidden";
 
+    // Push a history state so the back button closes the lightbox on mobile
     if (window.history && window.history.pushState) {
       window.history.pushState({ lightbox: true }, "");
     }
@@ -49,6 +55,7 @@ export default function ProjectItem({ project, isOpen, toggleOpen }) {
     document.body.style.overflow = "auto";
   }, []);
 
+  // Escape key listener
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === "Escape" && lightboxOpen) {
@@ -59,6 +66,7 @@ export default function ProjectItem({ project, isOpen, toggleOpen }) {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [lightboxOpen, closeLightbox]);
 
+  // Browser back button listener (mobile)
   useEffect(() => {
     const handlePopState = (e) => {
       if (lightboxOpen) {
@@ -74,9 +82,6 @@ export default function ProjectItem({ project, isOpen, toggleOpen }) {
       ? project.ac
       : [project.ac]
     : [];
-
-  // ✅ FIX 1 : sécurise project.media si undefined
-  const mediaList = project.media ?? [];
 
   return (
     <>
@@ -280,7 +285,7 @@ export default function ProjectItem({ project, isOpen, toggleOpen }) {
             </div>
 
             <div className="masonry-gallery">
-              {mediaList.map((m, i) => (
+              {project.media.map((m, i) => (
                 <div
                   key={i}
                   className="media-container"
@@ -337,6 +342,7 @@ export default function ProjectItem({ project, isOpen, toggleOpen }) {
           }}
           onClick={closeLightbox}
         >
+          {/* ── Bouton RETOUR – mobile uniquement ── */}
           {isMobile && (
             <button
               onClick={closeLightbox}
@@ -376,6 +382,7 @@ export default function ProjectItem({ project, isOpen, toggleOpen }) {
             </button>
           )}
 
+          {/* ── Bouton CROIX ── */}
           <button
             onClick={closeLightbox}
             title="Fermer (Échap)"
@@ -406,6 +413,7 @@ export default function ProjectItem({ project, isOpen, toggleOpen }) {
             <X size={22} color="white" />
           </button>
 
+          {/* ── Hint Échap – desktop uniquement ── */}
           {!isMobile && (
             <div
               style={{
@@ -440,6 +448,7 @@ export default function ProjectItem({ project, isOpen, toggleOpen }) {
             </div>
           )}
 
+          {/* ── Média ── */}
           <div
             onClick={(e) => e.stopPropagation()}
             style={{
@@ -459,7 +468,7 @@ export default function ProjectItem({ project, isOpen, toggleOpen }) {
               />
             ) : (
               <iframe
-                src={getYouTubeEmbedUrl(currentMedia.url)}
+                src={getYouTubeEmbedUrl(m.url)}
                 style={{
                   height: "100%",
                   display: "block",
