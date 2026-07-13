@@ -16,7 +16,7 @@ export const content = {
       stats: [
         {
           icon: <Code size={32} />,
-          number: 900,
+          number: 1900,
           label: "+ Heure de Développement",
         },
         {
@@ -29,7 +29,7 @@ export const content = {
           number: 15,
           label: "Technologies Maîtrisées",
         },
-        { icon: <Users size={32} />, number: 20, label: "Clients Satisfaits" },
+        { icon: <Users size={32} />, number: 3, label: "Clients Satisfaits" },
       ],
       skills: [
         "React",
@@ -181,7 +181,7 @@ export const content = {
         "As a web developer pursuing a bachelor's degree in multimedia and the internet, I create applications and websites where functionality and design combine. I alternate between developing for the front end and the back end, and when life drops me lemons, I always find a way to make lemonade out of it. I'm all about breathing life into ideas while soaking up new technologies on the way. Currently on the hunt for opportunities to push my web development game further.",
       hello: "Hi I'm Kéni",
       stats: [
-        { icon: <Code size={32} />, number: 900, label: "+ Hours of coding" },
+        { icon: <Code size={32} />, number:1900, label: "+ Hours of coding" },
         {
           icon: <Briefcase size={32} />,
           number: 3,
@@ -192,7 +192,7 @@ export const content = {
           number: 15,
           label: "Technologies Mastered",
         },
-        { icon: <Users size={32} />, number: 20, label: "Satisfied Clients" },
+        { icon: <Users size={32} />, number: 3, label: "Satisfied Clients" },
       ],
       skills: [
         "React",
