@@ -11,7 +11,7 @@ export const content = {
     about: {
       title: "À PROPOS DE MOI",
       intro:
-        "Développeur web étudiant en BUT Métier du Multimédia et de L'Internet, je crée des sites et applications où le design rencontre la technique. Je navigue entre front-end et back-end, et face aux défis, je trouve toujours le moyen d'en faire des opportunités. Passionné par la transformation d'idées en projets concrets, j'apprends constamment de nouvelles technologies. Actuellement à la recherche d'opportunités pour propulser ma carrière de développeur web.",
+        "Développeur web diplômé du BUT Métier du Multimédia et de L'Internet, je crée des sites web et applications où le design rencontre la technique. Je navigue entre front-end et back-end, et face aux défis, je trouve toujours le moyen d'en faire des opportunités. Passionné par la transformation d'idées en projets concrets, j'apprends constamment de nouvelles technologies. Actuellement à la recherche d'opportunités pour propulser ma carrière de développeur web.",
       hello: "Salut moi c'est Kéni",
       stats: [
         {
@@ -178,7 +178,7 @@ export const content = {
     about: {
       title: "ABOUT ME",
       intro:
-        "As a web developer pursuing a bachelor's degree in multimedia and the internet, I create applications and websites where functionality and design combine. I alternate between developing for the front end and the back end, and when life drops me lemons, I always find a way to make lemonade out of it. I'm all about breathing life into ideas while soaking up new technologies on the way. Currently on the hunt for opportunities to push my web development game further.",
+        "As a web developer graduated from a bachelor's degree in multimedia and the internet, I create applications and websites where functionality and design combine. I alternate between developing for the front end and the back end, and when life drops me lemons, I always find a way to make lemonade out of it. I'm all about breathing life into ideas while soaking up new technologies on the way. Currently on the hunt for opportunities to push my web development game further.",
       hello: "Hi I'm Kéni",
       stats: [
         { icon: <Code size={32} />, number:1900, label: "+ Hours of coding" },
