@@ -81,6 +81,7 @@ export default function AboutSection({ t, lang }) {
           href={lang === "fr" ? "/cv-fr.pdf" : "/cv-en.pdf"}
           download={lang === "fr" ? "CV_Keni-Mottin.pdf" : "CV_Keni-Mottin.pdf"}
           style={{ textDecoration: "none" }}
+          className="btn-div-cv"
         >
           <button className="Bouton-Cv">
             {lang === "fr" ? "Télécharger mon CV" : "Download my CV"}
