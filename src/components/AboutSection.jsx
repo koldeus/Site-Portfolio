@@ -78,8 +78,8 @@ export default function AboutSection({ t, lang }) {
       </div>
       <div className="btn-div-cv">
         <a
-          href={lang === "fr" ? "/cv-fr.pdf" : "/cv-en.pdf"}
-          download={lang === "fr" ? "CV_Keni-Mottin.pdf" : "CV_Keni-Mottin.pdf"}
+          href={lang === "fr" ? "/CV_Keni-Mottin_fr.pdf" : "/CV_Keni-Mottin_en.pdf"}
+          download={lang === "fr" ? "CV_Keni-Mottin_fr.pdf" : "CV_Keni-Mottin_en.pdf"}
           style={{ textDecoration: "none" }}
           className="btn-div-cv"
         >
