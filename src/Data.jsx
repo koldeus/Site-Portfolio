@@ -127,7 +127,7 @@ export const content = {
         title: "Stage Lycée Léonard de Vinci",
         year: "2025",
         cats: ["Développement Web", "Graphisme"],
-        desc: "Refonte Total du site web du lycée leonard de vinci en plus de la création d'une toute nouvelle identité visuelle de létablissement.",
+        desc: "Refonte Total du site web du lycée leonard de vinci en plus de la création d'une toute nouvelle identité visuelle de l'établissement.",
         tech: ["Laravel", "PhpMyAdmin", "SSH", "HTML", "JS", "CSS"],
         website: "https://www.lyc-vinci-amboise.fr",
         media: [
