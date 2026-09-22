@@ -21,7 +21,7 @@ export const content = {
         },
         {
           icon: <Briefcase size={32} />,
-          number: 3,
+          number: 0.5,
           label: "Années d'Expérience",
         },
         {
@@ -184,7 +184,7 @@ export const content = {
         { icon: <Code size={32} />, number:1900, label: "+ Hours of coding" },
         {
           icon: <Briefcase size={32} />,
-          number: 3,
+          number: 0.5,
           label: "Years of Experience",
         },
         {
